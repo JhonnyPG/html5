@@ -31,6 +31,11 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 .products{
     width: 1340px;
     margin: 0 auto;
@@ -43,11 +48,26 @@ nav a{
     text-align: center;
     width: 30%;
     vertical-align: top;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.products li:hover{
+    border-color: #c78c19;
+
+}
+.products li:active{
+    border-color: #088c19;
 }
 
 .products h2{
     font-size: 30px;
     font-weight: bold;
+}
+.products li:hover h2{
+    font-size: 33px;
+
 }
 
 .p-desc{
@@ -58,4 +78,16 @@ nav a{
     font-weight: bold;
     margin-top: 10px;
     
+}
+
+footer{
+    
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 20px;
+    
+}
+.copyr {
+    color: white;
+    margin: 15px;
 }
