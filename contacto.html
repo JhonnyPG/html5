@@ -14,7 +14,7 @@
     <header> 
         <div class ="caja">
             
-                <h1><img src ="imagenes/logo.png"></h1>
+                <h1><img src ="imagenes/logo.png" alt="logo de la barberia"></h1>
                     <nav>
                         <ul >
                             <li><a href="index.html">Home</a></li>
@@ -26,6 +26,70 @@
             
         </div>
     </header>
+
+    <main>
+        <form >
+            <label for ="nombre-ape">Nombre y Apellido</label>
+            <input type="text" id ="nombre-ape" class="i-padre">
+
+            <label for ="correo">Correo/e-mail</label>
+            <input type="email" id ="correo" class="i-padre" required placeholder="user@domain.com">
+
+            <label for ="telefono">Telefono</label>
+            <input type="tel" id ="telefono" class="i-padre" required placeholder="XXX XXXXXXX">
+            
+            <label for ="mensaje">Mensaje</label>
+            <textarea cols ="70" rows="10" id="mensaje" class="i-padre" required></textarea>
+            <fieldset>
+                <legend>¿Cómo le gustaria ser contactado?</legend>
+                <label for ="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                <label for ="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+                
+                <label for ="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana </option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+            </fieldset>
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de nuestra pagina?</label>
+
+            <input type="submit" value="enviar formulario" class="enviarb">
+
+
+        </form>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>08:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08:00 - 20:00</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </main>
     <footer>
         <img src = "imagenes/logo-blanco.png"/>
         <p class = "copyr">&copy Copyright barberia -2022</p>
