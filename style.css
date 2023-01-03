@@ -7,7 +7,7 @@ header{
 }
 
 .caja{
-width: 1340px;
+width: 940px;
 position: relative;
 margin: 0 auto;
 
@@ -40,7 +40,7 @@ nav a:hover{
 }
 
 .products{
-    width: 1340px;
+    width: 940px;
     margin: 0 auto;
     padding: 50px;
 
